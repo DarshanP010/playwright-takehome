@@ -92,7 +92,7 @@ playwright-takehome/
 | 1 | Adds a single todo | Adds "Learn Playwright" and verifies it appears |
 | 2 | Adds two todos | Adds both items and verifies count = 2 |
 | 3 | Marks todo completed + filters | Completes "Learn Playwright", checks Completed filter (1 item) and Active filter (1 item) |
-| 4 | *(Bonus)* Clears completed | Clears completed items and verifies only active item remains |
+| 4 | Clears completed | Clears completed items and verifies only active item remains |
 
 Tests run across **Chromium, Firefox, and WebKit** by default.
 
