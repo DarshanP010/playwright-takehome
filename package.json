@@ -1,0 +1,15 @@
+{
+  "name": "playwright-takehome",
+  "version": "1.0.0",
+  "description": "Playwright take-home assessment - TodoMVC UI tests",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test tests/todo.spec.ts --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^20.0.0",
+    "allure-playwright": "^3.9.0"
+  }
+}

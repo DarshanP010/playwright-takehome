@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3749","Adds another todo ""Write tests"" and verifies both appear in the list","chromium","2026-05-22","passed","2026-05-22","TodoMVC","todo.spec.ts","",""
+"","1716","Clears completed items and verifies the list updates","chromium","2026-05-22","passed","2026-05-22","TodoMVC","todo.spec.ts","",""
+"","2825","Adds a single todo and verifies it appears in the list","chromium","2026-05-22","passed","2026-05-22","TodoMVC","todo.spec.ts","",""
+"","2313","Marks a todo ""Learn Playwright"" as completed and verifies filters work correctly","chromium","2026-05-22","passed","2026-05-22","TodoMVC","todo.spec.ts","",""
