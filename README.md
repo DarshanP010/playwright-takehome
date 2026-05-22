@@ -14,34 +14,52 @@ Automated UI tests for the [TodoMVC demo app](https://demo.playwright.dev/todomv
 ## Setup
 
 ### 1. Install dependencies
-
 ```bash
 npm install
+```
+
+### 2. Install Playwright browsers
+```bash
 npx playwright install
 ```
 
-> `npx playwright install` downloads the browser binaries (Chromium, Firefox, WebKit).
+### 3. Install Allure command-line (for reports)
+```bash
+npm install --save-dev allure-playwright allure-commandline
+```
 
 ---
 
 ## Running the Tests
 
-### Run the full test suite (all browsers, headless)
-
+### Run the full test suite
 ```bash
 npx playwright test
 ```
 
-### Run only the todo spec in headed mode (browser visible)
+### Run only the todo spec
+```bash
+npx playwright test tests/todo.spec.ts
+```
 
+### Run in headed mode (browser visible)
 ```bash
 npx playwright test tests/todo.spec.ts --headed
 ```
 
-### Open the HTML test report after a run
+---
 
+## Viewing Reports
+
+### Playwright HTML report
 ```bash
 npx playwright show-report
+```
+
+### Allure report
+```bash
+npx allure generate allure-results --clean
+npx allure open
 ```
 
 ---
